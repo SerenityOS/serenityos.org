@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #20232a;
+    --secondary-color: #61dafb;
+    --background-color: #f0f0f0;
+    --text-color: #20232a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 1.1em;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+header, footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+main {
+    margin-bottom: 2rem;
+}
+
+section {
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    overflow: auto;
+}
+
+h1, h2 {
+    margin: 0 0 1rem 0;
+}
+
+p, pre {
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+header > img {
+    width: 50%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+section {
+    clear: both;
+}
+
+section img {
+    float: right;
+    border-radius: 8px;
+    margin-left: 1em;
+    width: 40%;
+    max-width: 350px;
+    clear: both;
+}
+
+section.reflections p {
+    font-style: italic;
+}
