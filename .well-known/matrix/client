@@ -1,1 +1,11 @@
-{"m.homeserver":{"base_url":"https://serenityos.matrix.nwex.de/"}}
+{
+  "m.homeserver": {
+    "base_url": "https://serenityos.matrix.nwex.de/"
+  },
+  "org.matrix.msc4143.rtc_foci": [
+    {
+      "livekit_service_url": "https://livekit.rtc.matrix.nwex.de",
+      "type": "livekit"
+    }
+  ]
+}
